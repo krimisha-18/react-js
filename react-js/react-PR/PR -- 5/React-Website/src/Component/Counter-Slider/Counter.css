@@ -1,0 +1,66 @@
+.banner-counter{
+    background-image: url('../../img/banner-counter.jpg');
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.counter-box{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.counter-box .per-12{
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 1.2;
+    color: #64b496;
+    margin-right: 10px;
+}
+.counter-box p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.counter-box h4{
+    margin-top: 12px;
+    margin-bottom: 15px;
+    font-family: "Manrope", sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #2b2b2d;
+}
+.counter-box p{
+    margin-bottom: 0px;
+    font-size: 14px;
+    color: #7a7a7a;
+    line-height: 1.75;
+}
+.counter-inner-box{
+    padding: 12px 24px;
+    display: flex;
+    border: 1px solid #e9cbbe;
+    border-radius: 5px;
+}
+.counter-inner-box h4{
+    width: 45px;
+    margin: 0;
+    position: relative;
+    display: -ms-grid;
+    display: grid;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #7a7a7a;
+    text-align: center;
+}
+.counter-inner-box h4 span{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #2b2b2d;
+}

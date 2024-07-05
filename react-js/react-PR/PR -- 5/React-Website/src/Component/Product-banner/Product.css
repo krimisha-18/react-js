@@ -1,0 +1,53 @@
+.order-box{
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 24px;
+    border-radius: 5px;
+}
+.order-content h5{
+    margin-bottom: 15px;
+    font-family: "Manrope", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-transform: capitalize;
+    color: #2b2b2d
+}
+.order-content p{
+    font-family: "Poppins, sans-serif";
+    font-size: 14px;
+    line-height: 1.2;
+    color: #777;
+}
+.percentage{
+    margin-right: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #64b496;
+}
+.order-btn a{
+    height: 40px;
+    width: 120px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    padding: 8px 22px;
+    font-size: 14px;
+    font-family: "Manrope", sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 1.2;
+    background-color: #64b496;
+    color: #fff;
+    border: 1px solid #64b496;
+    border-radius: 5px;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.order-btn a:hover{
+    background-color: #000;
+}

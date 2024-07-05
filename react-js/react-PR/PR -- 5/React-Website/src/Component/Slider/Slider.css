@@ -1,0 +1,43 @@
+
+
+.banner-1{
+    background-image: url("../../../public/img/banner-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px;
+}
+.banner-2{
+    background-image: url("../../../public/img/banner-2.jpg");  
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px;
+}
+.fs-58{
+    font-size: 58px;
+}
+.text-green{
+    color: #64b496;
+}
+.lorem{
+    color: #7a7a7a;
+}
+.bg-green{
+    background-color: #64b496;
+}
+
+.swing{
+    animation:swing 5s infinite;
+}
+.organic{
+    text-decoration: underline;
+    
+}
+@keyframes swing{
+    from{
+        transform: rotate(10deg);
+    }50%{
+        transform: rotate(-10deg);
+    }
+}
+
+
